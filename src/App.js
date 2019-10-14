@@ -2,6 +2,7 @@ import * as React from 'react';
 import './App.css';
 import { Switch, Route, withRouter, Link } from 'react-router-dom';
 import Home from './components/Home';
+import Create from './components/contact/Create';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
 
         <Switch>
           <Route path={'/'} exact component={Home} />
+          <Route path={'/create'} exact component={Create} />
         </Switch>
       </div>
     );

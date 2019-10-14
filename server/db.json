@@ -10,7 +10,7 @@
       "state": "Maharashtra",
       "city": "Pune",
       "address": "Contact_1 Address",
-      "notes": "Contact_1 description"
+      "notes": "Contact_1 notes"
     },
     {
       "id": 2,
@@ -21,8 +21,8 @@
       "gender": "female",
       "state": "Maharashtra",
       "city": "Mumbai",
-      "address": "Contact_1 Address",
-      "notes": "Contact_1 description"
+      "address": "Contact_2 Address",
+      "notes": "Contact_2 notes"
     }
   ]
 }
