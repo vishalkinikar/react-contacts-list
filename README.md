@@ -4,5 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Clone the repo
 - cd react-contacts-list
-- run npm install && npm start
+- run npm install && npm run dev
 - open http://localhost:3000 in your browser

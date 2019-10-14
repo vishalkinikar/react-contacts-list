@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "first_name": "Contact_1",
+      "last_name": "Contact_1",
+      "email": "contact1@mail.com",
+      "phone": "00000000000",
+      "gender": "male",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "address": "Contact_1 Address",
+      "notes": "Contact_1 description"
+    },
+    {
+      "id": 2,
+      "first_name": "Contact_2",
+      "last_name": "Contact_2",
+      "email": "contact2@mail.com",
+      "phone": "00000000000",
+      "gender": "female",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "address": "Contact_1 Address",
+      "notes": "Contact_1 description"
+    }
+  ]
+}
