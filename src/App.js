@@ -8,7 +8,7 @@ import Create from './components/contact/Create';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <nav>
           <ul>
             <li>
@@ -20,6 +20,10 @@ class App extends React.Component {
             </li>
           </ul>
         </nav>
+
+
+        <h1 className="tac">Contact List Management App</h1>
+        <p className="tac">Built with React.js</p>
 
         <Switch>
           <Route path={'/'} exact component={Home} />

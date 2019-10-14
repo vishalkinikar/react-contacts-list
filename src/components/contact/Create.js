@@ -107,7 +107,7 @@ class Create extends React.Component {
 
   processFormSubmission = e => {
     e.preventDefault();
-   
+
     if(!this.handleValidation()) return;
 
     this.setState({ loading: true });
@@ -164,7 +164,7 @@ class Create extends React.Component {
             </div>
           )}
 
-          {Object.keys(errors).length > 1 && (
+          {Object.keys(errors).length > 0 && (
             Object.keys(errors).map(error => {
               return (
                 <div key={error} className="alert alert-danger" role="alert">

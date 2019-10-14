@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -65,7 +64,6 @@ export default class Home extends React.Component {
                         <td>
                             <div className="d-flex justify-content-between align-items-center">
                                 <div className="btn-group" style={{ marginBottom: "20px" }}>
-                                    <Link to={`edit/${contact.id}`} className="btn btn-sm btn-outline-secondary">Edit Contact</Link>
                                     <button className="btn btn-sm btn-outline-secondary" onClick={() => this.deleteContact(contact.id)}>Delete Contact</button>
                                 </div>
                             </div>

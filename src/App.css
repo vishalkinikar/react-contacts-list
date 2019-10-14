@@ -6,8 +6,19 @@
 }
 
 .App {
-  text-align: center;
   margin-top: 30px;
+}
+
+.App h1 {
+  padding-top: 30px;
+}
+
+.App h2 {
+  font-size: 1.4rem;
+}
+
+.tac {
+  text-align: center;
 }
 
 nav {
@@ -16,6 +27,11 @@ nav {
   background: #282c34;
   height: 70px;
   line-height: 70px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
